@@ -1,0 +1,253 @@
+@import "./css/preloader.css";
+@import "./css/social-ico.css";
+@import "./css/skills-icons.css";
+/* @import "./css/download-cv.css"; */
+@import "./css/projects.css";
+@import "./css/download-button.css";
+@import "./css/form.css";
+@import "./css/map.css";
+@import "./css/language.css";
+
+/* *{
+    border: 1px solid red;
+} */
+
+.jumbotron{
+border: 1px solid black;
+text-shadow: 3px black;
+background-color: #101519;
+
+}
+
+
+div.container-fluid{
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+/* NAV */
+
+nav{
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    overflow: none;
+}
+
+/*------- NAV ICON HOME */
+
+.nav-ico-home{
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.nav-ico-home::before{
+    font-family: 'FontAwesome';
+    content: "\f015";
+    position: absolute;
+    font-size: 30px;
+    color: #ffd700;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.4s;
+}
+
+.nav-ico-home::after{
+    content:"Home";
+    opacity: 0;
+    color: #ffd700;
+    transition: .5s;
+    font-size: 15px;
+}
+
+.nav-ico-home:hover::before{
+    transform: translate(-50%,-50%)scale(1.1);
+    opacity: 0;
+}
+
+.nav-ico-home:hover::after{
+    opacity: 100%;
+}
+
+/* NAV ICON ABOUT */
+
+.nav-ico-about{
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.nav-ico-about::before{
+    font-family: 'FontAwesome';
+    content: "\f007";
+    position: absolute;
+    font-size: 30px;
+    color: #ffd700;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.4s;
+}
+
+.nav-ico-about::after{
+    content:"about";
+    opacity: 0;
+    color: #ffd700;
+    transition: .5s;
+    font-size: 15px;
+}
+
+.nav-ico-about:hover::before{
+    transform: translate(-50%,-50%)scale(1.1);
+    opacity: 0;
+}
+
+.nav-ico-about:hover::after{
+    opacity: 100%;
+}
+
+/* NAV ICON SKILSS */
+
+.nav-ico-skills{
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.nav-ico-skills::before{
+    font-family: 'FontAwesome';
+    content: "\f013";
+    position: absolute;
+    font-size: 30px;
+    color: #ffd700;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.4s;
+}
+
+.nav-ico-skills::after{
+    content:"skills";
+    opacity: 0;
+    color: #ffd700;
+    transition: .5s;
+    font-size: 15px;
+}
+
+.nav-ico-skills:hover::before{
+    transform: translate(-50%,-50%)scale(1.1);
+    opacity: 0;
+}
+
+.nav-ico-skills:hover::after{
+    opacity: 100%;
+}
+
+/* NAV ICON PROJECTS */
+
+.nav-ico-projects{
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.nav-ico-projects::before{
+    font-family: 'FontAwesome';
+    content: "\e571";
+    position: absolute;
+    font-size: 30px;
+    color: #ffd700;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.4s;
+}
+
+.nav-ico-projects::after{
+    content:"projects";
+    opacity: 0;
+    color: #ffd700;
+    transition: .5s;
+    font-size: 15px;
+}
+
+.nav-ico-projects:hover::before{
+    transform: translate(-50%,-50%)scale(1.1);
+    opacity: 0;
+}
+
+.nav-ico-projects:hover::after{
+    opacity: 100%;
+}
+
+/* NAV ICON PROJECTS */
+
+.nav-ico-contact{
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.nav-ico-contact::before{
+    font-family: 'FontAwesome';
+    content: "\f0e0";
+    position: absolute;
+    font-size: 30px;
+    color: #ffd700;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.4s;
+}
+
+.nav-ico-contact::after{
+    content:"contact";
+    opacity: 0;
+    color: #ffd700;
+    transition: .5s;
+    font-size: 15px;
+}
+
+.nav-ico-contact:hover::before{
+    transform: translate(-50%,-50%)scale(1.1);
+    opacity: 0;
+}
+
+.nav-ico-contact:hover::after{
+    opacity: 100%;
+}
+
+footer{
+    max-width: 100%;
+
+}
+
+footer ul{
+    max-width: 100%;
+    padding: 0;
+}
+
+@media (max-width: 600px) {
+    #skills-nav{
+        align-items: center !important;
+        justify-content: center !important;
+        margin-left: 50px;
+    }
+    
+}
+
+@media (max-width: 340px) {
+    #skills-nav{
+        align-items: center !important;
+        justify-content: center !important;
+        margin-left: 0px;
+    }
+    
+}
+

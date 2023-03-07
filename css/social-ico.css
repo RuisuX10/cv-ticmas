@@ -1,0 +1,45 @@
+  ul {
+    position: relative;
+    display: flex;
+    justify-content:center
+  }
+  ul li {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    cursor: pointer;
+    overflow: none;
+  }
+  ul li a i{
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+  }
+
+  ul li a .fa-brands { 
+    font-size: 4em;
+    color: #000
+  }
+
+  #instagram:hover{
+    content: "\f16d";
+    background-image:linear-gradient(45deg, #f09433 0%,#e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  #twit:hover{
+    content: "\f099";
+    color: #1Da1F2;
+  }
+
+  #github:hover{
+    content: "\f09b";
+    color: #FFF;
+  }
+
+  #linkedin:hover{
+    content: "\f08c";
+    color: #0766C2;
+  }
+
